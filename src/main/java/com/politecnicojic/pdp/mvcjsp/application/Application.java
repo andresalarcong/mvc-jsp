@@ -1,13 +1,13 @@
-package com.politecnicojic.pdp.mvcjsp;
+package com.politecnicojic.pdp.mvcjsp.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MvcJspApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MvcJspApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
